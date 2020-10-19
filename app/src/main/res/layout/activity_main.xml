@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- ** Copied from sample app - activity_basic.xml ** -->
+
+    <com.alamkanak.weekview.WeekView
+        android:id="@+id/weekView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:adaptiveEventTextSize="true"
+        app:allDayEventTextSize="13sp"
+        app:columnGap="6dp"
+        app:eventCornerRadius="4dp"
+        app:eventMarginVertical="2dp"
+        app:eventPaddingHorizontal="4dp"
+        app:eventPaddingVertical="5dp"
+        app:eventTextSize="13sp"
+        app:headerBottomShadowRadius="4dp"
+        app:headerPadding="8dp"
+        app:headerTextColor="@color/gray_600"
+        app:hourHeight="60dp"
+        app:nowLineDotRadius="5dp"
+        app:nowLineStrokeWidth="2dp"
+        app:numberOfVisibleDays="3"
+        app:overlappingEventGap="1dp"
+        app:showCurrentTimeFirst="true"
+        app:showHeaderBottomShadow="true"
+        app:showNowLine="true"
+        app:showNowLineDot="true"
+        app:showTimeColumnSeparator="true"
+        app:showWeekNumber="true"
+        app:singleDayHorizontalPadding="8dp"
+        app:timeColumnPadding="16dp"
+        app:timeColumnSeparatorStrokeWidth="1dp"
+        app:timeColumnTextColor="@color/gray_600"
+        app:timeColumnTextSize="12sp"
+        app:weekNumberBackgroundCornerRadius="8dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
