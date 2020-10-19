@@ -1,1 +1,1 @@
-# weekly-sample
+# thellmund/Android-Week-Viewweekly sample
